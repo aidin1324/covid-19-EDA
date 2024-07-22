@@ -4,6 +4,24 @@
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
+# Игнорирование виртуального окружения Python
+myenv/
+
+# Игнорирование файлов IDE
+.vscode/
+.idea/
+
+# Игнорирование системных файлов
+.DS_Store
+Thumbs.db
+
+# Игнорирование Python кэша
+__pycache__/
+*.py[cod]
+
+# Игнорирование конфигураций и данных
+*.env
+*.sqlite3
 
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
